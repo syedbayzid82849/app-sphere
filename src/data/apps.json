@@ -1,0 +1,497 @@
+[
+    {
+        "id": 1,
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/168px-Spotify_logo_without_text.svg.png",
+        "description": "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Basic functions such as playing music are totally free, but you can also choose to upgrade to Spotify Premium.",
+        "size": 35.4,
+        "reviews": 128450,
+        "ratingAvg": 4.5,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200
+            },
+            {
+                "name": "2 star",
+                "count": 2300
+            },
+            {
+                "name": "3 star",
+                "count": 8900
+            },
+            {
+                "name": "4 star",
+                "count": 34000
+            },
+            {
+                "name": "5 star",
+                "count": 82050
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "WhatsApp",
+        "companyName": "Meta Platforms Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png",
+        "description": "WhatsApp Messenger is a FREE messaging app available for Android and other smartphones. WhatsApp uses your phone's Internet connection to let you message and call friends and family. Switch from SMS to WhatsApp to send and receive messages, calls, photos, videos, documents, and Voice Messages.",
+        "size": 42.1,
+        "reviews": 215300,
+        "ratingAvg": 4.3,
+        "downloads": 5000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3200
+            },
+            {
+                "name": "2 star",
+                "count": 4100
+            },
+            {
+                "name": "3 star",
+                "count": 15000
+            },
+            {
+                "name": "4 star",
+                "count": 67000
+            },
+            {
+                "name": "5 star",
+                "count": 126000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Instagram",
+        "companyName": "Meta Platforms Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png",
+        "description": "Instagram is a free photo and video sharing app available on Apple iOS, Android and Windows Phone. People can upload photos or videos to our service and share them with their followers or with a select group of friends. They can also view, comment and like posts shared by their friends on Instagram.",
+        "size": 58.7,
+        "reviews": 340200,
+        "ratingAvg": 4.2,
+        "downloads": 4500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000
+            },
+            {
+                "name": "2 star",
+                "count": 7800
+            },
+            {
+                "name": "3 star",
+                "count": 22000
+            },
+            {
+                "name": "4 star",
+                "count": 95000
+            },
+            {
+                "name": "5 star",
+                "count": 210400
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/159px-YouTube_full-color_icon_%282017%29.svg.png",
+        "description": "Get the official YouTube app on Android phones and tablets. See what the world is watching -- from the hottest music videos to what's trending in gaming, entertainment, news, and more. Subscribe to channels you love, create content of your own, share with friends, and watch on any device.",
+        "size": 71.3,
+        "reviews": 512000,
+        "ratingAvg": 4.4,
+        "downloads": 8000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 6000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 30000
+            },
+            {
+                "name": "4 star",
+                "count": 150000
+            },
+            {
+                "name": "5 star",
+                "count": 317000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Canva_Logo.svg/250px-Canva_Logo.svg.png",
+        "description": "Canva is a graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content. The app includes templates for users to use. The platform is free to use and offers paid subscriptions like Canva Pro and Canva for Enterprise for additional functionality.",
+        "size": 46.9,
+        "reviews": 98700,
+        "ratingAvg": 4.7,
+        "downloads": 1800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 5000
+            },
+            {
+                "name": "4 star",
+                "count": 22000
+            },
+            {
+                "name": "5 star",
+                "count": 69700
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Duolingo",
+        "companyName": "Duolingo Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Duolingo_App_Icon.png/240px-Duolingo_App_Icon.png",
+        "description": "Learn a new language with the world's most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.",
+        "size": 28.5,
+        "reviews": 175400,
+        "ratingAvg": 4.6,
+        "downloads": 2300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500
+            },
+            {
+                "name": "2 star",
+                "count": 2800
+            },
+            {
+                "name": "3 star",
+                "count": 10000
+            },
+            {
+                "name": "4 star",
+                "count": 45000
+            },
+            {
+                "name": "5 star",
+                "count": 116100
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Netflix",
+        "companyName": "Netflix Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/220px-Netflix_2015_logo.svg.png",
+        "description": "Netflix is the world's leading subscription streaming entertainment service with 220+ million paid memberships in 190+ countries enjoying TV series, documentaries, feature films and mobile games across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere.",
+        "size": 85.2,
+        "reviews": 289000,
+        "ratingAvg": 4.3,
+        "downloads": 3700000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000
+            },
+            {
+                "name": "2 star",
+                "count": 6500
+            },
+            {
+                "name": "3 star",
+                "count": 20000
+            },
+            {
+                "name": "4 star",
+                "count": 80000
+            },
+            {
+                "name": "5 star",
+                "count": 178500
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Notion",
+        "companyName": "Notion Labs Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+        "description": "Notion is a note-taking and project management software used by companies and individuals to organize their work and personal life. It is a workspace where you can write, plan, collaborate and get organized — it allows you to take notes, add tasks, manage projects and more.",
+        "size": 32.6,
+        "reviews": 64300,
+        "ratingAvg": 4.5,
+        "downloads": 900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1100
+            },
+            {
+                "name": "3 star",
+                "count": 4500
+            },
+            {
+                "name": "4 star",
+                "count": 18000
+            },
+            {
+                "name": "5 star",
+                "count": 40000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Google Maps",
+        "companyName": "Google LLC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Google_Maps_icon_%282020%29.svg/142px-Google_Maps_icon_%282020%29.svg.png",
+        "description": "Navigate your world faster and easier with Google Maps. Over 220 countries and territories mapped and hundreds of millions of businesses and places on the map. Get real-time GPS navigation, traffic, and transit info, and explore local neighborhoods by knowing where to eat, drink and go.",
+        "size": 55.8,
+        "reviews": 430000,
+        "ratingAvg": 4.4,
+        "downloads": 7000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5500
+            },
+            {
+                "name": "2 star",
+                "count": 8000
+            },
+            {
+                "name": "3 star",
+                "count": 28000
+            },
+            {
+                "name": "4 star",
+                "count": 120000
+            },
+            {
+                "name": "5 star",
+                "count": 268500
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zoom_Communications_Logo.svg/280px-Zoom_Communications_Logo.svg.png",
+        "description": "Zoom is a video conferencing platform that allows you to connect with anyone, anywhere. Use Zoom to host webinars, online meetings, video conferencing, and more. Zoom is used by millions of businesses and individuals around the world for remote work, online education, and staying connected.",
+        "size": 48.3,
+        "reviews": 187600,
+        "ratingAvg": 4.2,
+        "downloads": 2800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3500
+            },
+            {
+                "name": "2 star",
+                "count": 5200
+            },
+            {
+                "name": "3 star",
+                "count": 18000
+            },
+            {
+                "name": "4 star",
+                "count": 55000
+            },
+            {
+                "name": "5 star",
+                "count": 105900
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Telegram",
+        "companyName": "Telegram FZ LLC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/120px-Telegram_logo.svg.png",
+        "description": "Telegram is a messaging app with a focus on speed and security. It's super-fast, simple and free. Telegram seamlessly syncs across all of your devices and can be used on desktops, tablets and phones alike. You can send an unlimited amount of messages, photos, videos and files of any type.",
+        "size": 39.7,
+        "reviews": 256800,
+        "ratingAvg": 4.6,
+        "downloads": 4100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2100
+            },
+            {
+                "name": "2 star",
+                "count": 3800
+            },
+            {
+                "name": "3 star",
+                "count": 14000
+            },
+            {
+                "name": "4 star",
+                "count": 72000
+            },
+            {
+                "name": "5 star",
+                "count": 164900
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Figma",
+        "companyName": "Figma Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+        "description": "Figma is a collaborative web application for interface design. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.",
+        "size": 27.4,
+        "reviews": 43200,
+        "ratingAvg": 4.8,
+        "downloads": 650000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 2500
+            },
+            {
+                "name": "4 star",
+                "count": 10000
+            },
+            {
+                "name": "5 star",
+                "count": 29800
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Adobe Lightroom",
+        "companyName": "Adobe Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/150px-Adobe_Photoshop_Lightroom_CC_logo.svg.png",
+        "description": "Adobe Lightroom is a photo editing and organizing app. Edit, organize, store, and share photos from anywhere. Lightroom features easy-to-use tools like sliders for adjusting light, color, detail, and more. Experiment with presets and filters to transform your photos.",
+        "size": 63.5,
+        "reviews": 88900,
+        "ratingAvg": 4.4,
+        "downloads": 1400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1100
+            },
+            {
+                "name": "2 star",
+                "count": 1900
+            },
+            {
+                "name": "3 star",
+                "count": 7000
+            },
+            {
+                "name": "4 star",
+                "count": 25000
+            },
+            {
+                "name": "5 star",
+                "count": 53900
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Trello",
+        "companyName": "Atlassian",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Antu_trello.svg/240px-Antu_trello.svg.png",
+        "description": "Trello is a visual tool for organizing your work and life. Manage projects, organize tasks, and build team spirit—all in one place. Trello's boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.",
+        "size": 22.8,
+        "reviews": 52400,
+        "ratingAvg": 4.3,
+        "downloads": 780000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 3800
+            },
+            {
+                "name": "4 star",
+                "count": 15000
+            },
+            {
+                "name": "5 star",
+                "count": 32100
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Shazam",
+        "companyName": "Apple Inc.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Shazam_icon.svg/240px-Shazam_icon.svg.png",
+        "description": "Shazam can identify music, movies, advertising, and television shows, based on a short sample played using the microphone on your device. Just tap the button to identify any song playing around you. Discover, explore and share the music you love.",
+        "size": 18.6,
+        "reviews": 76500,
+        "ratingAvg": 4.7,
+        "downloads": 1100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1100
+            },
+            {
+                "name": "3 star",
+                "count": 4800
+            },
+            {
+                "name": "4 star",
+                "count": 20000
+            },
+            {
+                "name": "5 star",
+                "count": 49900
+            }
+        ]
+    }
+]
