@@ -16,11 +16,11 @@ const AppCard = ({app}) => {
             className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer"
         >
             {/* App Image */}
-            <div className="w-full aspect-square bg-gray-100 overflow-hidden">
+            <div className="w-full aspect-square overflow-hidden">
                 <img
                     src={app.image}
                     alt={app.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover p-3"
                 />
             </div>
 
