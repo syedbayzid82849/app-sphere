@@ -7,7 +7,8 @@ import Ellipse27 from "../assets/Ellipse 27.png";
 import Ellipse28 from "../assets/Ellipse 28.png";
 import Ellipse29 from "../assets/Ellipse 29.png";
 import ip from '../assets/Iphone.png';
-
+import playStore from '../assets/plyastore.jpg';
+import appStore from '../assets/appStore.jfif';
 // Google Play SVG logo
 const GooglePlayIcon = () => (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
@@ -31,24 +32,24 @@ const AppStoreIcon = () => (
 
 // Floating app icon positions (left side)
 const leftIcons = [
-    { src: Ellipse27, alt: "Stopwatch", top: "38%", left: "8%" },
-    { src: Ellipse26, alt: "Check", top: "52%", left: "3%" },
-    { src: Ellipse25, alt: "Power", top: "66%", left: "6%" },
+    { src: Ellipse27, alt: "Stopwatch", top: "38%", left: "26%" },
+    { src: Ellipse26, alt: "Check", top: "52%", left: "22%" },
+    { src: Ellipse25, alt: "Power", top: "66%", left:"18%" },
 ];
 
 // Floating app icon positions (right side)
 const rightIcons = [
-    { src: Ellipse24, alt: "Clock", top: "38%", right: "8%" },
-    { src: Ellipse29, alt: "Trello", top: "52%", right: "3%" },
-    { src: Ellipse28, alt: "Altcoin", top: "66%", right: "6%" },
+    { src: Ellipse24, alt: "Clock", top: "38%", right: "26%" },
+    { src: Ellipse29, alt: "Trello", top: "52%", right: "22%" },
+    { src: Ellipse28, alt: "Altcoin", top: "66%", right: "18%" },
 ];
 
 const HeroSection = () => {
     return (
-        <section className="relative bg-[#f0f0f0] overflow-hidden min-h-[92vh] flex flex-col items-center">
+        <section className="relative bg-[#f0f0f0] overflow-hidden flex flex-col items-center">
 
             {/* ── Heading ── */}
-            <div className="text-center mt-16 sm:mt-20 px-4 z-10 relative">
+            <div className="text-center sm:mt-10 px-4 z-10 relative">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1a1a2e] leading-tight">
                     We Build
                 </h1>
@@ -59,7 +60,7 @@ const HeroSection = () => {
 
                 {/* Subtext */}
                 <p className="mt-5 text-gray-500 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-                    At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
+                    At APP-SPHERE , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
                     <br className="hidden sm:block" />
                     Our goal is to turn your ideas into digital experiences that truly make an impact.
                 </p>
@@ -73,7 +74,7 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2.5 bg-white hover:bg-gray-50 border border-gray-200 shadow-sm text-[#1a1a2e] font-semibold text-sm px-6 py-3 rounded-xl transition-all"
                     >
-                        <GooglePlayIcon />
+                        <img className="w-6 h-6 object-contain" src={playStore} alt="playStore" />
                         Google Play
                     </a>
 
@@ -84,7 +85,7 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2.5 bg-white hover:bg-gray-50 border border-gray-200 shadow-sm text-[#1a1a2e] font-semibold text-sm px-6 py-3 rounded-xl transition-all"
                     >
-                        <AppStoreIcon />
+                        <img className="w-6 h-6 object-contain" src={appStore} alt="" />
                         App Store
                     </a>
                 </div>

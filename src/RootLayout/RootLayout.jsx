@@ -7,7 +7,7 @@ const RootLayout = () => {
         <div className="min-h-screen flex flex-col">
             <Navbar />
 
-            <div className="container mx-auto grow">
+            <div className=" grow">
                 <Outlet />
             </div>
 
