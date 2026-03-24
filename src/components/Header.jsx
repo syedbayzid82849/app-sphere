@@ -41,7 +41,7 @@ const Navbar = () => {
 
                 {/* Desktop Contribute Button */}
                 <a
-                    href="https://github.com/your-username"
+                    href="https://github.com/syedbayzid82849/app-sphere"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden md:flex items-center gap-2 bg-[#6C5CE7] hover:bg-[#5a4bd1] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"

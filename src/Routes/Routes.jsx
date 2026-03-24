@@ -8,21 +8,22 @@ import AppDetails from "../pages/AppDetails";
 export const router = createBrowserRouter([
     {
         path: "/",
-        Component: RootLayout, 
-        errorElement: <ErrorPage />, 
+        Component: RootLayout,
+        errorElement: <ErrorPage />,
         children: [
             {
-                index: true, 
-                Component: Home 
-            }, 
+                index: true,
+                Component: Home
+            },
             {
-                path: "/apps", 
+                path: "/apps",
                 Component: AllApps
-            }, 
-            {
-                path: "/appDetails/:id", 
-                Component: AppDetails
-            }
-        ] 
+            },
+
+        ]
+    },
+    {
+        path: "/appDetails/:id",
+        Component: AppDetails
     }
 ]);

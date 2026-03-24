@@ -12,6 +12,7 @@ import toast from "react-hot-toast";
 import { useNavigate, useParams } from "react-router";
 import Loading from "../components/loading";
 import appNotFound from "../assets/appNotFound.png";
+import { addToStoreDB, getStoredApp } from "../utility/addToDB";
 
 // Helper: format numbers
 const formatNum = (n) => {
@@ -50,6 +51,13 @@ export default function AppDetails() {
     // ✅ Find app
     const app = data.find((app) => app.id === appId);
 
+    useEffect(() => {
+        if (app) {
+            const storedApps = getStoredApp();
+            setInstalled(storedApps.includes(app.id));
+        }
+    }, [app]);
+
     // ✅ Loading state
     if (loading) {
         return <Loading />;
@@ -87,6 +95,7 @@ export default function AppDetails() {
     const chartData = [...app.ratings].reverse();
 
     const handleInstall = () => {
+        addToStoreDB(app.id);
         setInstalled(true);
         toast.success("App installed successfully!");
     };
@@ -127,13 +136,14 @@ export default function AppDetails() {
                     <button
                         onClick={handleInstall}
                         disabled={installed}
-                        className={`px-6 py-2 rounded text-white ${installed
-                            ? "bg-gray-400"
-                            : "bg-emerald-600 hover:bg-emerald-700"
+                        className={`px-6 py-2 rounded text-white transition-all ${installed
+                                ? "bg-gray-400 cursor-not-allowed"
+                                : "bg-emerald-600 hover:bg-emerald-700 cursor-pointer"
                             }`}
                     >
                         {installed ? "Installed" : `Install (${app.size} MB)`}
                     </button>
+
                 </div>
             </div>
 
