@@ -1,10 +1,20 @@
 import { useNavigate } from "react-router";
-import appsData from "../data/apps.json";
 import AppCard from "./AppCard";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const TopAppsSection = () => {
     const navigate = useNavigate();
     const topApps = appsData.slice(0, 8);
+        const [appsData, setAppsData] = useState([]);
+
+    //data fetch 
+    useEffect(()=>{
+            fetch("/apps.json")
+                .then(res => res.json())
+                .then(data => setAppsData(data))
+                .catch(err => console.log(err));
+        },[]);
 
     return (
         <section className="flex flex-col mx-auto px-4 sm:px-6 py-14">

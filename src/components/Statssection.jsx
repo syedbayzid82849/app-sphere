@@ -1,6 +1,15 @@
-import appsData from "../data/apps.json";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const StatsSection = () => {
+    const [appsData, setAppsData] = useState([]);
+    //data fetch 
+    useEffect(() => {
+        fetch("/apps.json")
+            .then(res => res.json())
+            .then(data => setAppsData(data))
+            .catch(err => console.log(err));
+    }, []);
     // Calculate stats dynamically from JSON data
     const totalDownloads = appsData.reduce((sum, app) => sum + app.downloads, 0);
     const totalReviews = appsData.reduce((sum, app) => sum + app.reviews, 0);

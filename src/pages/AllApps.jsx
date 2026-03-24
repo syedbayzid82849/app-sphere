@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import AppCard from "../components/AppCard";
-import topApps from "../data/apps.json";
+import { useState } from "react";
 
 const AllApps = () => {
+      const [appsData, setAppsData] = useState([]);
+        //data fetch 
+        useEffect(() => {
+            fetch("/apps.json")
+                .then(res => res.json())
+                .then(data => setAppsData(data))
+                .catch(err => console.log(err));
+        }, []);
     return (
         <div className='bg-[#f5f5f5] '>
             <div className='text-center pt-4'>
@@ -18,7 +27,7 @@ const AllApps = () => {
                 {/* all apps  */}
                 {/* 4-column Grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-                    {topApps.map((app) => (
+                    {appsData.map((app) => (
                         <AppCard key={app.id} app={app} />
                     ))}
                 </div>

@@ -12,7 +12,7 @@ const AppCard = ({app}) => {
 
     return (
         <div
-            onClick={() => navigate(`/apps/${app.id}`)}
+            onClick={() => navigate(`/appDetails/${app.id}`)}
             className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer"
         >
             {/* App Image */}
