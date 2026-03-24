@@ -7,7 +7,7 @@ const Navbar = () => {
     const navLinks = [
         { to: "/", label: "Home" },
         { to: "/apps", label: "Apps" },
-        { to: "/installation", label: "Installation" },
+        { to: "/installedApps", label: "Installation" },
     ];
 
     const linkClass = ({ isActive }) =>

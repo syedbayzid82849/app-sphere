@@ -20,7 +20,7 @@ const AllApps = () => {
                     Explore All Apps on the Market developed by us. We code for Millions
                 </h4>
             </div>
-            <div className=" container mx-auto mt-6 border p-5">
+            <div className=" container mx-auto mt-6 p-5">
                 {/* total apps and search bar  */}
                 <div></div>
 

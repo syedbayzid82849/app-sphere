@@ -96,8 +96,8 @@ export default function AppDetails() {
 
     const handleInstall = () => {
         addToStoreDB(app.id);
-        setInstalled(true);
         toast.success("App installed successfully!");
+        setInstalled(true);
     };
 
     return (
@@ -108,7 +108,7 @@ export default function AppDetails() {
                 <img
                     src={app.image}
                     alt={app.title}
-                    className="w-28 h-28 rounded-xl border object-contain"
+                    className="w-28 h-28 rounded-xl object-contain"
                 />
 
                 <div className="flex-1">
