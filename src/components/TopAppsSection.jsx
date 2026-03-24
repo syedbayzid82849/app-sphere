@@ -5,16 +5,16 @@ import { useState } from "react";
 
 const TopAppsSection = () => {
     const navigate = useNavigate();
+    const [appsData, setAppsData] = useState([]);
     const topApps = appsData.slice(0, 8);
-        const [appsData, setAppsData] = useState([]);
 
     //data fetch 
-    useEffect(()=>{
-            fetch("/apps.json")
-                .then(res => res.json())
-                .then(data => setAppsData(data))
-                .catch(err => console.log(err));
-        },[]);
+    useEffect(() => {
+        fetch("/apps.json")
+            .then(res => res.json())
+            .then(data => setAppsData(data))
+            .catch(err => console.log(err));
+    }, []);
 
     return (
         <section className="flex flex-col mx-auto px-4 sm:px-6 py-14">
@@ -39,7 +39,7 @@ const TopAppsSection = () => {
                 className="mt-5 text-sm font-semibold text-[#6C5CE7] border border-[#6C5CE7] px-4 py-2 rounded-lg hover:bg-[#6C5CE7] hover:text-white transition-colors"
             >
                 Show All
-            </button> 
+            </button>
         </section>
     );
 };
