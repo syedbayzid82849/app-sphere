@@ -23,7 +23,7 @@ APP-SPHERE is a modern app discovery platform where users can explore, search, a
 
 ## Live Link
 
-[HERO.IO Live](https://app-sphere.netlify.app)
+[APP-SPHERE Live](https://app-sphere.netlify.app)
 
 ## GitHub Repository
 
