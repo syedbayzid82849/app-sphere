@@ -26,7 +26,7 @@ const Navbar = () => {
                         <polygon points="4,10 4,26 18,18" fill="#6C5CE7" />
                     </svg>
                     <span className="text-[#6C5CE7] font-bold text-lg tracking-widest uppercase">
-                        HERO.IO
+                        APP-SPHERE
                     </span>
                 </NavLink>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
 
                 {/* Desktop Contribute Button */}
                 <a
-                    href="https://github.com/syedbayzid82849/app-sphere"
+                    href="https://github.com/syedbayzid82849"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden md:flex items-center gap-2 bg-[#6C5CE7] hover:bg-[#5a4bd1] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"

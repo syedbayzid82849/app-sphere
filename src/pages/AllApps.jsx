@@ -3,14 +3,14 @@ import AppCard from "../components/AppCard";
 import { useState } from "react";
 
 const AllApps = () => {
-      const [appsData, setAppsData] = useState([]);
-        //data fetch 
-        useEffect(() => {
-            fetch("/apps.json")
-                .then(res => res.json())
-                .then(data => setAppsData(data))
-                .catch(err => console.log(err));
-        }, []);
+    const [appsData, setAppsData] = useState([]);
+    //data fetch 
+    useEffect(() => {
+        fetch("/apps.json")
+            .then(res => res.json())
+            .then(data => setAppsData(data))
+            .catch(err => console.log(err));
+    }, []);
     return (
         <div className='bg-[#f5f5f5] '>
             <div className='text-center pt-4'>
@@ -26,11 +26,19 @@ const AllApps = () => {
 
                 {/* all apps  */}
                 {/* 4-column Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-                    {appsData.map((app) => (
-                        <AppCard key={app.id} app={app} />
-                    ))}
-                </div>
+                {appsData.length === 0 ? (
+                    <div className="text-center py-20">
+                        <p className="text-4xl mb-3">📭</p>
+                        <h3 className="text-xl font-semibold text-gray-700">No App Found</h3>
+                        <p className="text-gray-400 text-sm mt-2">Try searching with a different keyword</p>
+                    </div>
+                ) : (
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                        {appsData.map((app) => (
+                            <AppCard key={app.id} app={app} />
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     );
